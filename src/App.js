@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Filter from './components/Filter/Filter';
 import Cards from './components/CardsFlex/CardFlex';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       //dsfsdfsdfdsvs💆 
       <Filter />
       <Cards />
-     
+     <Footer/>
     </div>
   );
 }
